@@ -1,0 +1,18 @@
+/* .main-container{
+    background-image: url(./assests/images/paddleboard-img.jpg);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+} */
+.row{
+    display: flex;
+    margin-top: 10%;
+}
+.container-fluid{
+    float: left;
+}
+.navbar-nav{
+    float: left;
+}
+
+
