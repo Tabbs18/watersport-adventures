@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -13,6 +19,7 @@
 </head>
 
 <body>
+    <!-- navagation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">Watersport Adventures</a>
@@ -26,10 +33,10 @@
                         <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Reservations</a>
+                        <a class="nav-link" href="./reservation.html">Reservations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="./about.html">About us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -37,9 +44,9 @@
                             More Details
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Pricing</a></li>
-                            <li><a class="dropdown-item" href="#">Features</a></li>
-                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li><a class="dropdown-item" href="./reservation.html">Pricing</a></li>
+                            <li><a class="dropdown-item" href="./about.html">Features</a></li>
+                            <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -47,17 +54,21 @@
         </div>
     </nav>
 
-
+    <div class="head-container">
+        <h1>Watersport Adventures</h1>
+        <h2>Florida Guided Water tours <br> Kayak, Paddle Board, Canoe, and or Tube rentals</h2>
+    </div>
+    <!-- card section -->
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <img src="./assests/images/lake-img.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Kayak</h5>
+                        <p class="card-text">Enjoy a relaxing expierience rowing down Florida Springs. Kayaks delivered
+                            to the water destination of your choice.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -65,10 +76,9 @@
                 <div class="card" style="width: 18rem;">
                     <img src="./assests/images/paddleboard.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Paddle Board</h5>
+                        <p class="card-text">Rent paddle boards with the family and see who is in touch with their balance while enjoying nature. Rentals availble up to six hours.</p>
+                        <a href="#" class="btn btn-primary"> Learn More</a>
                     </div>
                 </div>
             </div>
@@ -76,57 +86,29 @@
                 <div class="card" style="width: 18rem;">
                     <img src="./assests/images/canoe.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Canoe</h5>
+                        <p class="card-text">Rent canoes for up to six hours. Reserve a special tour of the beautiful
+                            Florida Springs. <br> Pricing varies.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="main-container">
-        <div class="row">
-            <div class="col">
-                <h1>Paddle bording</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet in libero vitae explicabo at
-                    adipisci ad iusto facere obcaecati. Iste esse soluta consequuntur vitae quibusdam qui possimus
-                    delectus atque.</p>
-            </div>
-            <div class="col">
-                <h1>Boat rides</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet in libero vitae explicabo at
-                    adipisci ad iusto facere obcaecati. Iste esse soluta consequuntur vitae quibusdam qui possimus
-                    delectus atque.</p>
-            </div>
-            <div class="col">
-                <h1>Fishing Trips</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet in libero vitae explicabo at
-                    adipisci ad iusto facere obcaecati. Iste esse soluta consequuntur vitae quibusdam qui possimus
-                    delectus atque.</p>
-            </div>
+    <div class="container-lg">
+        <h1>About Watersport</h1>
+        <br>
+        <p style="text-align: start;"> Watersport Adventures offers paddleboard's, Kayak's, and or Canoe's for rent. Make a reservation today on our website.<br><br>You are able to choose the Springs or lakes of your choice and get your rental delivered. Fishing Excursions are also avalible for groups.<br><br>
+        Delivery option is avalible from 6:30am until 4pm. Reservations can be made online or by calling during operating hours.<br><br> Cancellation must be done 48 hours prior for refunds.
+        <i><bold>Please Note:</i></bold> Changes may occur due to weather conditions and or currents. Please Check with us the day of your trip. For more information and inquires please contact us.</p>
+    </div>
+    <div class="section">
+        <div class="footer">
+            <footer>
+                &copy;|2021
+            </footer>
         </div>
-        <div class="row">
-            <div class="col">
-                <h1>Canoe</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet in libero vitae explicabo at
-                    adipisci ad iusto facere obcaecati. Iste esse soluta consequuntur vitae quibusdam qui possimus
-                    delectus atque.</p>
-            </div>
-            <div class="col">
-                <h1>kyak</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet in libero vitae explicabo at
-                    adipisci ad iusto facere obcaecati. Iste esse soluta consequuntur vitae quibusdam qui possimus
-                    delectus atque.</p>
-            </div>
-            <div class="col">
-                <h1>Tubing</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet in libero vitae explicabo at
-                    adipisci ad iusto facere obcaecati. Iste esse soluta consequuntur vitae quibusdam qui possimus
-                    delectus atque.</p>
-            </div>
-        </div>
-     </div>  -->
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>

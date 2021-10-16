@@ -4,15 +4,71 @@
     height: 100%;
     text-align: center;
 } */
+
+body{
+    background-image: url(./assests/images/light-grey-background.png);
+}
 .row{
     display: flex;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 .container-fluid{
     float: left;
 }
 .navbar-nav{
     float: left;
+    font-family: 'Playfair Display', serif;
 }
 
+.head-container{
+    text-align: center;
+    margin-top: 5%;
+}
 
+.navbar-brand, h1, h2, p{
+    font-family: 'Playfair Display', serif;
+
+}
+
+.card{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footer{
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.col{
+    margin-top: 3%;
+}
+.container-lg{
+text-align: center;
+background-color: white;
+}
+
+h1{
+    padding: 2%;
+}
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  } */
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  } */
